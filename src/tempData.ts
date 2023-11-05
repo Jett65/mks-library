@@ -13,7 +13,7 @@ export const bookList: book[] = [
         title: "book 1",
         isRead: false,
         review: "",
-        rating: 5,
+        rating: 3,
     },
 
     {
@@ -21,7 +21,7 @@ export const bookList: book[] = [
         title: "book 2",
         isRead: false,
         review: "",
-        rating: 5,
+        rating: 4,
     },
 
     {
@@ -45,7 +45,7 @@ export const bookList: book[] = [
         title: "book 5",
         isRead: true,
         review: "This book is not good",
-        rating: 5,
+        rating: 2,
     },
 
 ]

@@ -1,4 +1,5 @@
 //temp
+// import { ReactElement } from "react"
 import { book } from "../tempData"
 //
 
@@ -6,19 +7,14 @@ type StarRatingProps = {
     currentBook: book
 }
 
-function StarRating({ currentBook }: StarRatingProps) {
-    const starArray: React.
-    function createStars() {
-        for(let i = 0; i < currentBook.rating; i++) {
-            
-        }
-    }
+function StarRating({ currentBook }: StarRatingProps) {  
 
     return (
         <>
-            <div id="star"></div>          
+            
         </>
     )
+
 }
 
 export default StarRating
