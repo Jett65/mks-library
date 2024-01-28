@@ -8,6 +8,7 @@ import { book, bookList } from './tempData'
 
 function App() {
     const [currentBook, setCurrentBook] = useState<book>(bookList[0])
+    const test = 3
 
     return (
         <>
